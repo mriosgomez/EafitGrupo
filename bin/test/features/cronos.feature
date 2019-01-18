@@ -8,7 +8,7 @@ A través de la pagina de acceso a la aplicación cronos.
   Scenario: Realizar la Autenticación en Cronos.
 	Given que Margarita quiere acceder a Cronos
 	When en escribe el usuario "mmriosg" y la clave "123"
-	Then el ve el mensaje de "Bienvenido(a) Margarita María Ríos Gómez"
+	Then el ve el mensaje de "Bienvenido(a) Margarita María Ríos Gómez..."
 	
   @ConsultarUnaFecha
   Scenario: Consultar requerimientos de bienes en una fecha especifica
