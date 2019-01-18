@@ -1,0 +1,103 @@
+<!--?xml version='1.0' encoding='utf-8'?--><!DOCTYPE html><html lang="es" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link type="text/css" rel="stylesheet" href="/cronosServicios/faces/javax.faces.resource/theme.css?ln=primefaces-eafittheme" /><link type="text/css" rel="stylesheet" href="/cronosServicios/faces/javax.faces.resource/cronos.min.css;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=css" /><link type="text/css" rel="stylesheet" href="/cronosServicios/faces/javax.faces.resource/cronos.css;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=css" /><link type="text/css" rel="stylesheet" href="/cronosServicios/faces/javax.faces.resource/primefaces.css;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=primefaces&amp;v=5.2" /><script type="text/javascript" src="/cronosServicios/faces/javax.faces.resource/jquery/jquery.js;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/cronosServicios/faces/javax.faces.resource/primefaces.js;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/cronosServicios/faces/javax.faces.resource/jquery/jquery-plugins.js;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=primefaces&amp;v=5.2"></script><script type="text/javascript">if(window.PrimeFaces){}</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta description="Sistema de gestión de datos" />
+    <meta name="author" content="Universidad EAFIT" />
+    <link rel="shortcut icon" type="image/x-icon" href="/cronosServicios/faces/javax.faces.resource/images/favicon.ico" /><script type="text/javascript" src="/cronosServicios/faces/javax.faces.resource/calendar_es.js;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=js"></script><script type="text/javascript" src="/cronosServicios/faces/javax.faces.resource/generalCRONOS.js;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=js"></script>
+    
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css" />
+    <title>CRONOS</title></head>
+<body style="">
+
+<header id="cabezote" class="Header container">
+    <div class="row col-xs-12">
+        <figure class="Header-logoContainer col-xs-12 col-sm-2">
+            <a class="Header-logoLink" href="http://www.eafit.edu.co" target="_blank">
+            <span class="Header-logoLink"><img src="/cronosServicios/faces/javax.faces.resource/logo-universidad-eafit.png;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=images" alt="Universidad EAFIT" class="Header-logoImage" />
+            </span>
+            </a>
+        </figure>
+        <hr class="col-xs-12 visible-xs" />
+    </div>
+</header>
+<div id="aplicacion" class="AplicacionContainer">
+    <div class="container">
+        <div class="row">
+            
+            <h1 class="hidden-xs">
+                <a href="/cronosServicios/faces/usuario/main.xhtml">CRONOS
+                    <small class="hidden-xs"></small>
+                </a>
+            </h1>
+            <div class="AplicacionMenu">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div id="sistema" class="SistemaContainer">
+        <div class="container">
+
+
+<div class="mensajesWrapper" align="center" style="width:70%;margin:0px auto 0px auto;word-wrap: break-word;"><div id="messages" class="ui-messages ui-widget" aria-live="polite"></div>
+</div><div id="j_idt30"></div><div id="idDialogError" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="idDialogError_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="idDialogError_title" class="ui-dialog-title">Se ha presentado un inconveniente.</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">    
+    
+    <div class="alert alert-warning" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>Por favor actualice la página.<br />Si el problema persiste favor comuníquese con La Dirección de Informática.
+    </div>
+    
+    <button type="button" class="btn btn-default" onclick="document.location.href = document.location.href;">
+        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>Actualizar
+    </button></div></div><div id="j_idt36" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt36_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="j_idt36_title" class="ui-dialog-title">Procesando...</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">    
+    <div align="center"><img src="/cronosServicios/faces/javax.faces.resource/loader.gif;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=images" alt="Cargando..." title="Cargando..." />
+    </div></div></div>
+    <div class="container">
+        <div class="row">
+            <div class="well">
+                <p>Has estado inactivo en el sistema por mucho tiempo.</p>
+                <p>
+                Por razones de seguridad debes volver a acceder a la aplicación para seguir utilizándola
+                </p>
+                <a href="/cronosServicios/faces/login.xhtml?from=" class="btn btn-default u-btn-verde">
+                    Acceder
+                </a>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <footer id="footer" class="FooterContainer">
+        <div class="container">
+            <div class="row">
+            <div class="Footer-contact col-xs-12 col-sm-12 col-md-12" align="center !important">
+            <center>
+                Los campos marcados con * son obligatorios<br />
+                Se recomienda utilizar Internet Explorer 9.0 o superior, Chrome, Firefox.
+            </center>
+            </div>
+            </div>
+            <br />
+            <div class="row">
+            <div class="Footer-col1 col-xs-12 col-sm-6 col-md-4">
+                    <figure class="Footer-logoContainer">
+                            <a class="Footer-logoLink" href="#"><img src="/cronosServicios/faces/javax.faces.resource/logo_footer.png;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=images" alt="Universidad EAFIT" class="Footer-logoImage" />
+                            </a>
+                    </figure>
+                    <div class="Footer-phone">
+                            <span class="glyphicon glyphicon-earphone Footer-phoneIcon"></span> 01 8000 515 900
+                    </div>
+            </div>
+            <address class="Footer-contact col-xs-12 col-sm-6 col-md-8">
+                Universidad EAFIT, Carrera 49 N° 7 Sur-50, Medellín - Colombia  Medellín: (57)(4) 4489500 - Conmutador: (57)(4) 2619500<br />
+                Otras sedes: <a class="Footer-link" href="http://www.eafit.edu.co/bogota">EAFIT Bogotá</a> | <a class="Footer-link" href="http://www.eafit.edu.co/pereira">EAFIT Pereira</a> | <a class="Footer-link" href="http://www.eafit.edu.co/llanogrande">EAFIT Llanogrande</a><br />
+                Copyright 2014 |  <a class="Footer-link" href="http://www.eafit.edu.co/institucional/reglamentos/tratamiento-proteccion-datos-personales">Política de protección de datos personales</a> | <a class="Footer-link" href="http://www.eafit.edu.co/institucional/contacto">Contáctenos</a>  
+            </address>
+    </div>
+    </div>
+    </footer><script type="text/javascript" src="/cronosServicios/faces/javax.faces.resource/bootstrap.min.js;jsessionid=uvJg4qwQFUlVpEwO5e5Rjw0DOwOhWfnjOkiXID2bxxWhb4k43i3C!1432450044?ln=js"></script>
+
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div></body></html>
